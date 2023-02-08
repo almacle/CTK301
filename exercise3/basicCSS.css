@@ -1,0 +1,22 @@
+H1 {
+    color:#7768CC;
+    background-color:#A3CE8E;
+}
+.blueBlue {
+    color:blue;
+}
+#greenMagicWords {
+    color: #348E46;
+    font-family: "comic sans MS";
+}
+a {
+    color: #CE2544;
+    text-decoration: none;
+}
+a:visited {
+    color: #5F6866;
+}
+a:hover {
+    color: #0BBA1C;
+    text-decoration: underline;
+}
