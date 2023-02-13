@@ -1,0 +1,23 @@
+body{
+    background-color: #212020;
+    color: #ffffff;
+}
+li {
+    color: #B7B7B7;
+}
+
+#assignments{
+    background-color: #B7B7B7;
+}
+#assignmentsHeader{
+    background-color: #2B2B2B;
+    color: #ffffff;
+}
+a {
+    color: #141414;
+    text-decoration: none;
+}
+a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
