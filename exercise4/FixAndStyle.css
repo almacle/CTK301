@@ -1,0 +1,43 @@
+.highlight {
+    background-color: #FFFF00;
+}
+/* ^ used twice in the page ^ 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+v used once in the page (grouped by paragraph) v */
+#purple_bg {
+    background-color: #99AAFF;
+}
+h1 {
+    color: #FFFFFF;
+}
+a {
+    color: #0A8211;
+    text-decoration: none;
+}
+a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+h2 {
+    color: #0D0DFF;
+}
+.orange {
+    color: #FFB020;
+}
+
+.red_text {
+    color: #FF2626;
+}
+
+h4 {
+    background-color: #006400;
+    color: #EAF200;
+}
+#green_bg {
+    background-color: #90EE90;
+}
+
+h5 {
+    color: #FF0000;
+}
