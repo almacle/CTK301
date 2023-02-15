@@ -1,6 +1,9 @@
 .highlight {
     background-color: #FFFF00;
 }
+.blue {
+    color: #0D0DFF;
+}
 /* ^ used twice in the page ^ 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 v used once in the page (grouped by paragraph) v */
@@ -19,9 +22,7 @@ a:hover {
     text-decoration: underline;
 }
 
-h2 {
-    color: #0D0DFF;
-}
+
 .orange {
     color: #FFB020;
 }
