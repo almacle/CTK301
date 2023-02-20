@@ -1,0 +1,106 @@
+/* common */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    background-image: url(Pattern.jpg);
+    background-repeat: repeat;
+    background-position: top;
+}
+.zeroOut{
+    margin: 0;
+}
+.contentHeader{
+    background-color: #FF2D1E;
+    margin: 0
+}
+.contentHeader2{
+    background-color: #D32C32;
+}
+.contentMain{
+    background-color: #CC2E2E;
+    color: #EFEDF2;
+    padding: 5px;
+    margin: 10px 0px;
+}
+.inlineContent{
+    display: flex;
+    margin: 0
+}
+.lineBreaks{
+    display: block;
+    margin: 3px;
+}
+.img{
+    width: 80%;
+    margin: 0px 5px 0px 0px;
+    border: 5px solid black;
+    background-color: yellow;
+    padding: 2px;
+}
+a {
+    color: red;
+}
+a:visited {
+    color: green;
+}
+a:hover {
+    color: yellow;
+}
+nav {
+    background-color: #1B112B;
+    color: #1B112B;
+    padding: 5px;
+    margin: 0px 0px 20px 0px;
+}
+.navlink{
+    background-color: #2D243D;
+}
+.navArrow{
+    color: #C8C4CE;
+}
+.navHeader{
+    font-family: 'Arial';
+    margin: 0;
+}
+footer {
+    background-color: #1B112B;
+}
+
+/* requirements for assignment 4. Might remove later, because they kind of look awful...*/
+h1 {
+    color: orange;
+    background-color: #FF2D1E;
+    margin: 0;
+    padding: 5px;
+    font-style: italic;
+    font-weight: normal;
+}
+h2{
+    color: orange;
+    font-style: italic;
+    font-weight: normal;
+}
+h3{
+    color: orange;
+    font-style: italic;
+    font-weight: normal;
+}
+.textCenter {
+    text-align: center;
+}
+.textJustify {
+    text-align: justify;
+}
+
+
+/* main */
+#contact{
+    background-color:#2B2B2B;
+}
+#contactHeader{
+    background-color: #1E1E1E;
+}
+#contactText{
+    color: #EFEDF2;
+}
+
