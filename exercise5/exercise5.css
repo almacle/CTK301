@@ -1,0 +1,25 @@
+nav ul {
+    list-style-type:none;
+    padding-left: 0;
+    margin-left: 0;
+}
+nav li {
+    border:2px solid #31562D;
+    width: 20%;
+    padding: 0;
+    display: inline-block;
+    margin-right: 50px;
+    text-align: center;
+    background-color: #EA714F;
+}
+nav li a{
+    display: block;
+    margin: 10px, 0px;
+    font-size: 25pt;
+    color: #DDE2D9;
+    text-decoration: none;
+}
+nav li a:hover{
+    background-color: #31562D;
+    text-decoration: underline;
+}
