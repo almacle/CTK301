@@ -1,0 +1,94 @@
+body{
+    background-image: url(bg.png);
+    background-repeat: repeat;
+    background-position: top left;
+}
+.wrapper {
+    margin: 1em auto;
+    width: 960px;
+    border: 3px solid black;
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat (12,1fr);
+}
+header{
+    grid-column: span 12;
+    background-color: lightskyblue;
+    border-bottom: 3px solid black;
+    padding-left: 5px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+nav{
+    grid-column: span 12;
+    margin: 0 auto;
+}
+nav ul{
+    margin-left: 0;
+    padding-left: 0;
+    list-style-type: none;
+}
+nav li{
+    display: inline-block;
+    margin-right: 5px;
+    border: 3px solid black;
+}
+nav a{
+    background-color: green;
+    color: whitesmoke;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    width: 120px;
+    text-align:center;
+    font-family: Helvetica, Arial, sans-serif;
+}
+nav a:hover{
+    background-color: darkgreen;
+}
+
+main{
+    grid-column: span 7;
+    margin: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+main h2{
+    border-bottom: 3px solid black;
+}
+main img{
+    width: 230px;
+    float: right;
+}
+main a{
+    color: green;
+    font-weight: bold;
+    text-decoration: none;
+}
+main a:hover{
+    color: darkgreen;
+}
+
+aside{
+    grid-column: span 5;
+    background-color: lightskyblue;
+    margin: 5px;
+    padding: 0px 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+aside h2{
+    border-bottom: 3px solid white;
+    color: white;
+}
+aside p{
+    color: white;
+    font-style: italic;
+}
+
+footer{
+    grid-column: span 12;
+    background-color: lightskyblue;
+    border-top: 3px solid black;
+    padding-left: 5px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+}
