@@ -1,0 +1,233 @@
+body {
+  background-color: #999999;
+  padding: 0;
+  margin: 0;
+}
+
+#wrapper {
+  margin: 0;
+  width: 100%;
+  padding: 0;
+  background-color: #ffffff;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-column-gap: 24px;
+}
+
+/* style for dummy columns, delete and replace with your own CSS */
+.dummycolumn {
+  background-color: rgba(255,0,0,.25);
+  grid-column: span 1;
+}
+ul{
+  list-style-type: none;
+  margin:0;
+  padding:0;
+  display:inline-block;
+  grid-column: span 12;
+}
+li{
+  display: inline-block;
+}
+
+header{
+  grid-column: span 12;
+  padding: 24px;
+  padding-bottom: 0;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-column-gap: 24px;
+}
+  #titleBanner{
+    grid-column: span 8;
+    width: 100%;
+  }
+  .filler{
+    grid-column: span 2;
+    margin-right: 60px;
+  }
+  #highlightImg{
+    grid-column: span 2;
+    width: 100%;
+  }
+
+
+nav{
+  grid-column: span 12;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-column-gap: 24px;
+}
+  #navHeader{
+    grid-column: span 12;
+    background-color: #9E9999;
+    padding: 10px 24px 3px 5px;
+    height: 35px;
+  }
+  nav h2{
+    background-color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+    height:26px;
+    font-weight:normal;
+    font-size:15pt;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  nav ul{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-column-gap: 24px;
+    height: 30px;
+  }
+  nav li{
+    grid-column: span 2;
+  }
+  nav a{
+    display:inline-block;
+    background-color: #949191;
+    color:#313030;
+    text-decoration: none;
+    font-family: 'Lucidia Sans Unicode', 'Segoe UI', sans-serif;
+    font-size: 12pt;
+    padding: 3px;
+    padding-left: 5px;
+    width: 100%;
+    transition: height 3s;
+  }
+  nav a:hover{
+    background-color: #8F8A8A;
+    height: 25px;
+    padding-top:7px;
+  }
+
+main{
+  grid-column: span 12;
+  padding: 24px;
+  padding-left: 0;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-column-gap: 24px;
+}
+  #intro{
+    grid-column: span 7;
+  }
+  .imgBox{
+    grid-column: span 5;
+  }
+  .imgBox h3{
+    background-color: #9E9999;
+    margin: 0;
+    padding-left: 15px;
+    font-family: 'Flow Circular', cursive;
+    font-size: 12pt;
+    font-weight: normal;
+    color:#313030;
+  }
+  .imgBox img{
+    width: 100%;
+    margin: 0;
+  }
+  main h2{
+    padding: 0;
+    margin: 0;
+    padding-left: 24px;
+    border-bottom: solid 20px #9E9999;
+    grid-column: span 2;
+    display:inline-block;
+    font-family: "bagatelle-variable", sans-serif;
+    font-variation-settings: "BLLS" 399.6006, "STCK" 219.81982;
+    color: #707070;
+    font-size: 40px;
+  }
+  main p{
+    padding-left: 24px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #707070;
+    font-size: 30px;
+  }
+  #ft{
+    grid-column: span 4;
+  }
+  #featured{
+    grid-column: span 12;
+    padding: 10px 24px;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-column-gap: 24px;
+  }
+  section{
+    width: 95%;
+    display: inline-block;
+    border: solid 2px #9E9999;
+    padding: 0;
+    margin-bottom: 15px;
+    grid-column: span 5;
+    box-shadow: 2px 2px 10px #999;
+  }
+  section h3{
+    background-color: #9E9999;
+    margin: 0;
+    padding-left: 15px;
+    font-family: 'Flow Circular', cursive;
+    font-size: 12pt;
+    font-weight: normal;
+    color:#313030;
+  }
+  section img{
+    float:right;
+  }
+
+footer{
+  grid-column: span 12;
+  background-color: #9E9999;
+  padding-left:10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-column-gap: 24px;
+}
+  footer ul{
+    grid-column: span 4;
+    width: 100%;
+  }
+  footer li{
+    margin-right: 20px;
+  }
+  footer a{
+    display:inline-block;
+    background-color: #CBCBCB;
+    color:#313030;
+    text-decoration: none;
+    font-family: 'Lucidia Sans Unicode', 'Segoe UI', sans-serif;
+    font-size: 30px;
+    padding: 15px;
+    padding-left: 5px;
+    width: 100%;
+    text-align: center;
+  }
+  footer a:hover{
+    background-color: #BCBBBB;
+  }
+  #socials{
+    grid-column: span 2;
+  }
+  #socials p{
+    padding: 0;
+    margin: 2px;
+    text-align: right;
+    padding-right: 20px;
+    font-size: 15px;
+    font-family: 'Lucidia Sans Unicode', 'Segoe UI', sans-serif;
+    color:#2E2E2E;
+  }
+  #socials a{
+    padding: 0;
+    margin: 2px;
+    text-align: right;
+    padding-right: 20px;
+    font-size: 15px;
+    display: inline;
+    font-family: 'Lucidia Sans Unicode', 'Segoe UI', sans-serif;
+    color:#2E2E2E;
+  }
