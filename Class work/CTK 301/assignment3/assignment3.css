@@ -1,0 +1,51 @@
+h1 {
+    color: #EFEDF2;
+    background-color: #FF2D1E;
+}
+
+a {
+    color: red;
+}
+a:visited {
+    color: green;
+}
+a:hover {
+    color: yellow;
+}
+
+nav {
+    background-color: #D9D9DB;
+}
+.navlink{
+    background-color: #878787;
+}
+#navHeader{
+    color: #282828;
+    font-family: 'Arial';
+}
+
+#contact{
+    background-color:#2B2B2B;
+}
+#contactHeader{
+    background-color: #1E1E1E;
+    color: #EFEDF2;
+}
+#contactText{
+    color: #EFEDF2;
+}
+
+.contentMain{
+    background-color: #CC2E2E;
+    color: #EFEDF2;
+}
+.contentHeader{
+    background-color: #FF2D1E;
+}
+.contentHeader2{
+    background-color: #D32C32;
+}
+
+footer {
+    background-color: #D9D9DB;
+}

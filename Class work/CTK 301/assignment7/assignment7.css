@@ -1,0 +1,126 @@
+body {
+    background-color: grey;
+}
+#wrapper{
+    background-color: white;
+    border: 4px solid #3F54BF;
+    margin: 1em auto;
+    width: 960px;
+    display: grid;
+    grid-template-columns: repeat (12,1fr);
+}
+
+
+header{
+    grid-column: span 12;
+    padding: 0 10px;
+    background-image: linear-gradient(to bottom, #3f5cff, #345ee3, #355dc5, #3c5ba6, #445787);
+}
+nav{
+    grid-column: span 12;
+    margin: 0px;
+    background-image: linear-gradient(to top, #253049, #2c3958, #344367, #3c4d77, #445787);
+}
+aside{
+    grid-column: span 4;
+    background-color: #98D8E5;
+    padding: 0 10px;
+}
+main{
+    grid-column: span 8;
+    padding: 0 10px;
+}
+footer {
+    background-color: red;
+    border-top: 4px solid #3F54BF;
+    padding: 5px;
+    grid-column: span 12;
+}
+
+header a{
+    color: #96A7FF;
+    text-decoration: none;
+    font-family: Helvetica, Arial, sans-serif;
+    font-style:italic;
+}
+header a:hover{
+    color: white;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+nav li{
+    display: inline-block;
+    margin: 0;
+}
+nav a{
+    display: block;
+    grid-column: span 3;
+    color: #96A7FF;
+    text-decoration: none;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    width: 237px;
+    padding: 15px 0;
+    text-align: center;
+    background-image: linear-gradient(to bottom, #3f5cff, #415ce7, #445ccf, #485bb7, #4c599f);
+}
+nav a:hover{
+    color: white;
+    background-image: linear-gradient(to bottom, #60acff, #529ce4, #478cc9, #3e7caf, #366c96);
+}
+
+aside h2{
+    color: #3F54BF;
+    border-bottom: 2px solid #3F54BF;
+    font-family: Helvetica, Arial, sans-serif;
+}
+aside p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: justify;
+}
+
+main h2{
+    color: #3F54BF;
+    border-bottom: 2px solid #3F54BF;
+    font-family: Helvetica, Arial, sans-serif;
+}
+main img{
+    border: 2px solid #3F54BF;
+    margin-right: 1em;
+    margin-bottom: 5px;
+}
+main a{
+    color: red;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+main a:hover{
+    color: #96A7FF;
+}
+
+.wrapRight{
+    float: right;
+   }
+.wrapLeft{
+    float: left;
+}
+#galleryDISP{
+    grid-column: span 12;
+    display: grid;
+    
+}
+.galleryIMG img{
+    width: 280px;
+}
+.galleryIMG{
+    grid-column: span 4;
+    /*width: 280px;*/
+    /*display: inline-block;*/
+    margin: 15px;
+}
